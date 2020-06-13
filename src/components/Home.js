@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './home.css'
-import bg0 from './img/bg1.gif'
+import bg0 from './img/bg2.gif'
+import bgvd from './video/bg.mp4'
 import book from './img/book.png'
 import {scrollFunction} from './vanillajs'
 import bg1 from './img/bulb.png'
@@ -46,6 +47,23 @@ export class Home extends Component {
 
                      <img src={book} alt="" class="book"  />
                      <img src={bg0} alt="" class="bg0"  />
+                     <video 
+                      autoPlay
+                       loop
+                        muted
+                        style={{
+                            position:"absolute",
+                            width:"100%",
+                            left:"50%",
+                            top: "50%",
+                            height:"100%",
+                            objectFit:"cover",
+                            transform:"translate(-50%,-50%)",
+                            zIndex:"-0",
+                            opacity:"0"
+                        }}  >
+                         <source src={bgvd} type="video/mp4" class="bgvd" />
+                     </video>
                      <img src={bg1} id="bg1" alt=""></img>
                  </div>
                  <a  id="gotopbtn" href="#" style={{fontSize:35 }}><i  class='far'>&#xf35b;</i></a>
