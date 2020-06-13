@@ -13,6 +13,11 @@
   }
 }
 
+body{
+  background-color: #0ff;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-11/cur1054.cur),auto!important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
