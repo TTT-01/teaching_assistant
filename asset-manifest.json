@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/teaching_assistant/static/css/main.6ad6298a.chunk.css",
-    "main.js": "/teaching_assistant/static/js/main.49ab4248.chunk.js",
-    "main.js.map": "/teaching_assistant/static/js/main.49ab4248.chunk.js.map",
+    "main.css": "/teaching_assistant/static/css/main.63f40595.chunk.css",
+    "main.js": "/teaching_assistant/static/js/main.d945e54b.chunk.js",
+    "main.js.map": "/teaching_assistant/static/js/main.d945e54b.chunk.js.map",
     "runtime-main.js": "/teaching_assistant/static/js/runtime-main.1ebbc928.js",
     "runtime-main.js.map": "/teaching_assistant/static/js/runtime-main.1ebbc928.js.map",
-    "static/js/2.a2f13628.chunk.js": "/teaching_assistant/static/js/2.a2f13628.chunk.js",
-    "static/js/2.a2f13628.chunk.js.map": "/teaching_assistant/static/js/2.a2f13628.chunk.js.map",
+    "static/js/2.bc2ef2ba.chunk.js": "/teaching_assistant/static/js/2.bc2ef2ba.chunk.js",
+    "static/js/2.bc2ef2ba.chunk.js.map": "/teaching_assistant/static/js/2.bc2ef2ba.chunk.js.map",
     "index.html": "/teaching_assistant/index.html",
-    "precache-manifest.4d14fe305da05d71311c63a9e7473e3b.js": "/teaching_assistant/precache-manifest.4d14fe305da05d71311c63a9e7473e3b.js",
+    "precache-manifest.645ddb1af821d279bc7dfb1557ea9c75.js": "/teaching_assistant/precache-manifest.645ddb1af821d279bc7dfb1557ea9c75.js",
     "service-worker.js": "/teaching_assistant/service-worker.js",
-    "static/css/main.6ad6298a.chunk.css.map": "/teaching_assistant/static/css/main.6ad6298a.chunk.css.map",
-    "static/js/2.a2f13628.chunk.js.LICENSE.txt": "/teaching_assistant/static/js/2.a2f13628.chunk.js.LICENSE.txt",
+    "static/css/main.63f40595.chunk.css.map": "/teaching_assistant/static/css/main.63f40595.chunk.css.map",
+    "static/js/2.bc2ef2ba.chunk.js.LICENSE.txt": "/teaching_assistant/static/js/2.bc2ef2ba.chunk.js.LICENSE.txt",
     "static/media/bg.mp3": "/teaching_assistant/static/media/bg.39903cc1.mp3",
-    "static/media/bg1.gif": "/teaching_assistant/static/media/bg1.0f94a227.gif",
+    "static/media/bg.mp4": "/teaching_assistant/static/media/bg.a24476fa.mp4",
+    "static/media/bg2.gif": "/teaching_assistant/static/media/bg2.5e6894d4.gif",
     "static/media/book.png": "/teaching_assistant/static/media/book.a9041ccc.png",
     "static/media/bulb.png": "/teaching_assistant/static/media/bulb.73994dbe.png",
     "static/media/favicon.jpg": "/teaching_assistant/static/media/favicon.de37257d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1ebbc928.js",
-    "static/js/2.a2f13628.chunk.js",
-    "static/css/main.6ad6298a.chunk.css",
-    "static/js/main.49ab4248.chunk.js"
+    "static/js/2.bc2ef2ba.chunk.js",
+    "static/css/main.63f40595.chunk.css",
+    "static/js/main.d945e54b.chunk.js"
   ]
 }
