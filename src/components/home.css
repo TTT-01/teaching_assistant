@@ -224,11 +224,52 @@
   }
   
 
+
+
+
 @media only screen and (max-width: 800px) {
     .book{
         bottom: 15vh;
     }
     .text10,.text11,.text12{
         bottom: 28vh;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+    .cntr0{
+        position: absolute;
+    top: 30%;
+    left: 0rem;
+    right: 0rem;
+    transform: translate(0%,0%);
+    -ms-transform: translate(0%,0%);
+    font-size: 6.6vw;
+    color: #7fffd4;
+    z-index: 1;
+    -webkit-animation: b30 10s ease 1;
+    animation: b30 10s ease 1;
+    text-shadow: 2px 2px 4px #000;
+    cursor: url(http://cur.cursors-4u.net/others/oth-1/oth56.cur),auto!important;
+    }
+}
+
+
+@media only screen and (max-width: 370px) {
+    .cntr0{
+        position: absolute;
+    top: 40%;
+    left: 0rem;
+    right: 0rem;
+    transform: translate(0%,0%);
+    -ms-transform: translate(0%,0%);
+    font-size: 7.6vw;
+    color: #7fffd4;
+    z-index: 1;
+    -webkit-animation: b30 10s ease 1;
+    animation: b30 10s ease 1;
+    text-shadow: 2px 2px 4px #000;
+    cursor: url(http://cur.cursors-4u.net/others/oth-1/oth56.cur),auto!important;
     }
 }
