@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/teaching_assistant/static/css/main.5f361e03.chunk.css",
+    "main.js": "/teaching_assistant/static/js/main.5b7f912a.chunk.js",
+    "main.js.map": "/teaching_assistant/static/js/main.5b7f912a.chunk.js.map",
+    "runtime-main.js": "/teaching_assistant/static/js/runtime-main.1ebbc928.js",
+    "runtime-main.js.map": "/teaching_assistant/static/js/runtime-main.1ebbc928.js.map",
+    "static/js/2.c974ed9e.chunk.js": "/teaching_assistant/static/js/2.c974ed9e.chunk.js",
+    "static/js/2.c974ed9e.chunk.js.map": "/teaching_assistant/static/js/2.c974ed9e.chunk.js.map",
+    "index.html": "/teaching_assistant/index.html",
+    "precache-manifest.f6c18307c9f332c27913219c25ed5eeb.js": "/teaching_assistant/precache-manifest.f6c18307c9f332c27913219c25ed5eeb.js",
+    "service-worker.js": "/teaching_assistant/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/teaching_assistant/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c974ed9e.chunk.js.LICENSE.txt": "/teaching_assistant/static/js/2.c974ed9e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/teaching_assistant/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ebbc928.js",
+    "static/js/2.c974ed9e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.5b7f912a.chunk.js"
+  ]
+}
