@@ -25,7 +25,7 @@
 
 .cntr1 {
     
-    animation: b30 5s ease infinite;
+    animation: b30 3s ease infinite;
     text-shadow: 2px 2px 4px #000;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .overlay0 {
-   
+   z-index: 2;
     display: none;
     transition: 3s ease;
 }
@@ -59,7 +59,7 @@
 .text0 {
     text-decoration-line: overline underline;
     /*background-image: linear-gradient(270deg,#7fffd4,violet,coral,#7fffd4);*/
-    text-decoration-color: rgb(7, 6, 6);
+    text-decoration-color: white;
     background-size:  40vw;
     z-index: 1;
     font-size: 2.5vw;
@@ -75,6 +75,8 @@
   position: absolute;
   width: 100vw;
   height: 100vh;
+  opacity: 1;
+  
 }
 
 .book{
@@ -147,7 +149,7 @@
      bottom: 20vh;
     color: salmon;
     left: 20vw;
-    animation: t10 12s linear infinite;
+    animation: t10 6s linear infinite;
     opacity: 0;
     z-index: 1;
    }
@@ -157,7 +159,7 @@
      bottom: 20vh;
     color: seashell;
     left: 45vw;
-    animation: t10 12s linear infinite;
+    animation: t10 6s linear infinite;
     opacity: 0;
     z-index: 1;
    }
@@ -167,7 +169,7 @@
      bottom: 20vh;
     color: springgreen;
     left: 70vw;
-    animation: t10 12s linear infinite;
+    animation: t10 6s linear infinite;
     opacity: 0;
     z-index: 1;
 

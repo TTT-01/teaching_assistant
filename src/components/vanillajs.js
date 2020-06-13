@@ -32,13 +32,13 @@ export function scrollFunction() {
     document.getElementById("bg1").style.height = "35vh";
     document.getElementById("bg1").style.opacity = "0.4";
     document.getElementById("gotopbtn").style.display = "block";
-  } else {
+  } 
+  else {
     document.getElementById("bg1").style.width = "50vw";
     document.getElementById("bg1").style.height = "70vh";
     document.getElementById("bg1").style.opacity = "0.9";
     document.getElementById("gotopbtn").style.display = "none";
   }
-  
-  
-
 }
+
+
