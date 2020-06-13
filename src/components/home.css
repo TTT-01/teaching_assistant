@@ -187,8 +187,8 @@
 
    #gotopbtn{
     position: fixed;
-    width: 4vw;
-    height: 4vw;
+    width: 50px;
+    height: 50px;
     background: #27ae60;
     bottom: 40px;
     right: 40px;
@@ -196,7 +196,7 @@
     text-align: center;
     line-height: 50px;
     color: white;
-    font-size: 2vw;
+    font-size: 26px;
     border-radius: 50%;
     z-index: 5;
     display: none;
@@ -209,7 +209,7 @@
     right: 1px;
     text-decoration: none;
     text-align: center;
-    line-height: 4vw;
+    line-height: 50px;
     color: white;
     color: rgb(255, 47, 47);
     font-family: Lucida Bright;
@@ -221,7 +221,6 @@
          display: block;
   }
   
-
 
 @media only screen and (max-width: 800px) {
     .book{
