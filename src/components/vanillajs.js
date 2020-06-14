@@ -30,12 +30,14 @@ export function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("bg1").style.width = "15vw";
     document.getElementById("bg1").style.height = "35vh";
+    document.getElementById("bg1").style.top = "40%";
     document.getElementById("bg1").style.opacity = "0.4";
     document.getElementById("gotopbtn").style.display = "block";
   } 
   else {
     document.getElementById("bg1").style.width = "50vw";
     document.getElementById("bg1").style.height = "70vh";
+    document.getElementById("bg1").style.top = "20%";
     document.getElementById("bg1").style.opacity = "0.9";
     document.getElementById("gotopbtn").style.display = "none";
   }

@@ -12,9 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <audio autoPlay loop >
-                     <source src={bgad} type="audio/mp3"  />
-               </audio>
+     
      
       <Navbar />
       <Home />
@@ -71,6 +69,9 @@ function App() {
       <h1>Hello</h1>
       <h1>Hello</h1>
       <h1>Hello</h1>
+      <audio autoPlay loop controls a>
+                     <source src={bgad} type="audio/mp3" autoPlay />
+               </audio>
       </div>
       
   );
