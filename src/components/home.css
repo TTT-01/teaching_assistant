@@ -18,7 +18,7 @@
     color: #7fffd4;
     z-index: 1;
     -webkit-animation: b30 10s ease 1;
-    animation: b30 10s ease 1;
+    animation: b30 10s ease infinite;
     text-shadow: 2px 2px 4px #000;
     cursor: url(http://cur.cursors-4u.net/others/oth-1/oth56.cur),auto!important;
 }
@@ -32,7 +32,7 @@
 
 @keyframes b30{
     0% {
-        color: red;
+        color: #ff0;
     }
     25% {
         color: #ff0;
@@ -268,7 +268,7 @@
     right: 0rem;
     transform: translate(0%,0%);
     -ms-transform: translate(0%,0%);
-    font-size: 7.6vw;
+    font-size: 8.3vw;
     color: #7fffd4;
     z-index: 1;
     -webkit-animation: b30 10s ease 1;

@@ -5,7 +5,6 @@ import bgvd from './video/bg.mp4'
 import book from './img/book.png'
 import {scrollFunction} from './vanillajs'
 import bg1 from './img/bulb.png'
-import bgad from './audio/bg.mp3'
 
 
 
@@ -73,9 +72,7 @@ export class Home extends Component {
                                      screenfull.toggle();
                                    }
                                  }}>Toggle fullscreen</button>
-               <audio autoPlay loop >
-                     <source src={bgad} type="audio/mp3"  />
-               </audio>
+               
             </div>
         )
     }
