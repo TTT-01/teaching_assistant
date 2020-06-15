@@ -57,15 +57,14 @@ import kgp from './img/KGP.jfif'
                         <label for="card1" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
-                        {<React.Fragment>
+                        
                         <label for="card1" class="button a" aria-hidden="true">
-                        <small><a href="https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/Crypto/index.htm" target="_blank">More Details</a></small>
+                        <small><a href="https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/Crypto/index.htm" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card1" class="button b" aria-hidden="true">
                         <label for="card1" class="b" aria-hidden="true">
-                        <small>Participants</small>
-                        </label></label></React.Fragment>
-    }
+                        <small><small>Participants</small></small>
+                        </label></label>
                     </div>
                 </div>
             </div>
@@ -119,11 +118,11 @@ import kgp from './img/KGP.jfif'
                             <i class="fas fa-arrow-left"></i>
                         </label>
                         <label for="card1" class="button a" aria-hidden="true">
-                        <small><a href="https://cse.iitkgp.ac.in/~somindu/toc-2019/toc.html" target="_blank">More Details</a></small>
+                        <small><a href="https://cse.iitkgp.ac.in/~somindu/toc-2019/toc.html" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card1" class="button b" aria-hidden="true">
                         <label for="card1" class="b" aria-hidden="true">
-                        <small>Participants</small>
+                        <small><small>Participants</small></small>
                         </label></label>
                     </div>
                 </div>
@@ -175,11 +174,11 @@ import kgp from './img/KGP.jfif'
                             <i class="fas fa-arrow-left"></i>
                         </label>
                         <label for="card1" class="button a" aria-hidden="true">
-                        <small><a href="https://cse.iitkgp.ac.in/~spp/algos2aut2015.html" target="_blank">More Details</a></small>
+                        <small><a href="https://cse.iitkgp.ac.in/~spp/algos2aut2015.html" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card1" class="button b" aria-hidden="true">
                         <label for="card1" class="b" aria-hidden="true">
-                        <small>Participants</small>
+                        <small><small>Participants</small></small>
                         </label></label>
                     </div>
                 </div>
@@ -291,11 +290,11 @@ import kgp from './img/KGP.jfif'
                             <i class="fas fa-arrow-left"></i>
                         </label>
                         <label for="card1" class="button a" aria-hidden="true">
-                        <small><a href="http://cse.iitkgp.ac.in/~abhij/course/theory/DS/Autumn19/" target="_blank">More Details</a></small>
+                        <small><a href="http://cse.iitkgp.ac.in/~abhij/course/theory/DS/Autumn19/" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card1" class="button b" aria-hidden="true">
                         <label for="card1" class="b" aria-hidden="true">
-                        <small>Participants</small>
+                        <small><small>Participants</small></small>
                         </label></label>
                     </div>
                 </div>
@@ -348,11 +347,11 @@ import kgp from './img/KGP.jfif'
                             <i class="fas fa-arrow-left"></i>
                         </label>
                          <label for="card1" class="button a" aria-hidden="true">
-                        <small><a href="https://cse.iitkgp.ac.in/~dsamanta/courses/pds_lab/index.html" target="_blank">More Details</a></small>
+                        <small><a href="https://cse.iitkgp.ac.in/~dsamanta/courses/pds_lab/index.html" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card1" class="button b" aria-hidden="true">
                         <label for="card1" class="b" aria-hidden="true">
-                        <small>Participants</small>
+                        <small><small>Participants</small></small>
                         </label></label>
                     </div>
                 </div>
