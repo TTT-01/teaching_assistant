@@ -38,7 +38,7 @@ const screenfull = require('screenfull');
 
                           @<big style={{color: 'red', fontFamily: 'Herculanum'}}>T</big>eaching <big style={{color:' rgb(255, 67, 20)', fontFamily: 'Herculanum'}}>A</big>ssistant!
                           <br></br>
-                        <small class="cntr1" style={{fontFamily:'Curlz MT'}}> <small><small> <big style={{color:'red'}}>T</big>otally <big style={{color: 'red'}}>A</big>wesome</small></small></small>
+                        <small class="cntr1" style={{fontFamily:'Pacifico, cursive'}}> <small><small> <big style={{color:'red'}}>T</big>otally <big style={{color: 'red'}}>A</big>wesome</small></small></small>
                         </div>
                      </div>
 
