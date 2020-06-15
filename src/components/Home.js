@@ -10,7 +10,7 @@ import bg1 from './img/bulb.png'
 
 const screenfull = require('screenfull');
 
-export class Home extends Component {
+ class Home extends Component {
 
  componentDidMount() {
     
@@ -64,14 +64,17 @@ export class Home extends Component {
                          <source src={bgvd} type="video/mp4" class="bgvd" />
                      </video>
                      <img src={bg1} id="bg1" alt=""></img>
-                 </div>
-                 <a  id="gotopbtn" href="#" style={{fontSize:35 }}><i  class='far'>&#xf35b;</i></a>
+                     <a  id="gotopbtn" href="#" style={{fontSize:35 }}><i  class='far'>&#xf35b;</i></a>
                     <h4 class="gtbh">SCROLL TO TOP</h4>
-                    <button onClick={ () => {
+                   
+                 </div>
+                
+                    {/*<button onClick={ () => {
                                    if (screenfull.isEnabled) {
                                      screenfull.toggle();
                                    }
-                                 }}>Toggle fullscreen</button>
+                                 }}>Toggle fullscreen</button>*/}
+                                
                
             </div>
         )

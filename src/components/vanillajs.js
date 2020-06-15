@@ -28,7 +28,7 @@ window.onscroll = function() {scrollFunction()};
 
 export function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("bg1").style.width = "15vw";
+    document.getElementById("bg1").style.width = "9vw";
     document.getElementById("bg1").style.height = "35vh";
     document.getElementById("bg1").style.top = "40%";
     document.getElementById("bg1").style.opacity = "0.4";
