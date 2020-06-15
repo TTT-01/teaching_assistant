@@ -1,11 +1,20 @@
 import React, { Component } from 'react'
 import './subjects.css'
 import kgp from './img/KGP.jfif'
+import bg1 from './img/bulb.png'
+import {scrollFunction} from './vanillajs'
 
  class Subjects extends Component {
+         
+    componentDidMount() {
+    
+        scrollFunction(); 
+    }
+
     render() {
         return (
             <div class="sbj"  id="SUBJECTS" data-text="Subjects">
+                <img src={bg1} id="bg1" alt=""></img>
                  <div  style={{color:'white',zIndex:4,top:'9vh',position:'relative'}}><h1><big><big>Subjects</big></big></h1></div>
                  <br/><br/><br/>
                <div class="wrapper">

@@ -128,7 +128,7 @@
       opacity: 0.2;   
       position: fixed;  
       animation: b1 9s ease-in-out infinite;
-      z-index: 1;
+      z-index: 0;
     }
     @keyframes b1{
       0%{

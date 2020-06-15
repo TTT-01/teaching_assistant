@@ -9,6 +9,39 @@
     width: 100vw;
   
   }
+  #bg1
+    {
+      margin: 0;
+      position: absolute;
+      top: 20%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50vw;
+      height: 70vh;
+      opacity: 0.2;   
+      position: fixed;  
+      animation: b1 9s ease-in-out infinite;
+      z-index: 0;
+    }
+    @keyframes b1{
+      0%{
+           transform: scaleX(1);
+      }
+      50%{
+        transform: scaleX(-0.5);
+       
+      }
+
+      100%{
+        transform: scaleX(-1);
+       
+      }
+    }
   
   
   .wrapper {
