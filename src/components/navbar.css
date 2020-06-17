@@ -33,6 +33,10 @@
   box-shadow: 0 10px 40px rgba(159, 162, 177, .8);
 }
 
+.nav-item:active{
+  transform: scale(0.89);
+}
+
 .nav-item {
   color: #83818c;
   padding: 4vw;

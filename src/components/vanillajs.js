@@ -42,5 +42,3 @@ export function scrollFunction() {
     document.getElementById("gotopbtn").style.display = "none";
   }
 }
-
-

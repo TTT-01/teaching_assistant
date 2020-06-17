@@ -2,6 +2,38 @@
     box-sizing: border-box;
   }
   
+
+a{
+  text-decoration: none !important;
+}
+
+button{
+  border: 0px;
+  padding: 0;
+  font-size: 110%;
+  font-family: inherit;
+  cursor: pointer;
+  background: none;
+  z-index: 4;
+}
+
+button:hover
+{
+  z-index: 4;
+    
+}
+
+button:focus {
+  z-index: 4;
+    outline: 0px solid #fff;
+    outline-offset: -40px;
+}
+
+button:active {
+  z-index: 4;
+    transform: scale(0.89);
+}
+
   .sbj{
     top: 100vh;
     position: absolute;
@@ -43,6 +75,9 @@
       }
     }
   
+    .participants{
+      z-index: 30;
+    }
   
   .wrapper {
      
@@ -55,8 +90,8 @@
   }
   
   .card {
-    width: 420px;
-    height: 340px;
+    width: 390px;
+    height: 310px;
     margin: 1em;
     perspective: 1500px;
   }

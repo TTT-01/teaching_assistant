@@ -15,9 +15,9 @@ import favicon from './img/favicon.jpg'
                 <div className="nav0">
                     <img className="favicon"  src={favicon} alt=""/>
                      <nav class="nav">
-                      <a href="#" class="nav-item is-active" active-color="orange">Home</a>
+                      <a href="#" class="nav-item is-active" active-color="orange" style={{}}>Home</a>
                       <a href="#SUBJECTS" class="nav-item" active-color="green">Subjects</a>
-                      <a href="#" class="nav-item" active-color="blue">Participants</a>
+                      <a href="#PARTICIPANTS" class="nav-item" active-color="blue">Participants</a>
                      
                       <span class="nav-indicator"></span>
                     </nav>

@@ -3,6 +3,10 @@ import './subjects.css'
 import kgp from './img/KGP.jfif'
 import bg1 from './img/bulb.png'
 import {scrollFunction} from './vanillajs'
+import Participants from './Participants'
+import './participants.css'
+
+
 
  class Subjects extends Component {
          
@@ -10,13 +14,14 @@ import {scrollFunction} from './vanillajs'
     
         scrollFunction(); 
     }
+    
 
     render() {
         return (
             <div class="sbj"  id="SUBJECTS" data-text="Subjects">
                 <img src={bg1} id="bg1" alt=""></img>
-                 <div  style={{color:'white',zIndex:4,top:'9vh',position:'relative'}}><h1><big><big>Subjects</big></big></h1></div>
-                 <br/><br/><br/>
+                 <div  style={{color:'white',zIndex:4,top:'9vh'}}> <hr/> <br/> <hr/> <h1><big><big style={{textShadow:'1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue'}}>Subjects</big></big></h1>
+                 <br/>
                <div class="wrapper">
                    
         <div class="card">
@@ -72,7 +77,7 @@ import {scrollFunction} from './vanillajs'
                         </label>
                         <label for="card1" class="button b" aria-hidden="true">
                         <label for="card1" class="b" aria-hidden="true">
-                        <small><small>Participants</small></small>
+                        <small><a href="https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/Crypto/index.htm" ><small>Participants</small></a></small>
                         </label></label>
                     </div>
                 </div>
@@ -126,11 +131,11 @@ import {scrollFunction} from './vanillajs'
                         <label for="card2" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
-                        <label for="card1" class="button a" aria-hidden="true">
+                        <label for="card2" class="button a" aria-hidden="true">
                         <small><a href="https://cse.iitkgp.ac.in/~somindu/toc-2019/toc.html" target="_blank"><small>More Details</small></a></small>
                         </label>
-                        <label for="card1" class="button b" aria-hidden="true">
-                        <label for="card1" class="b" aria-hidden="true">
+                        <label for="card2" class="button b" aria-hidden="true">
+                        <label for="card2" class="b" aria-hidden="true">
                         <small><small>Participants</small></small>
                         </label></label>
                     </div>
@@ -182,11 +187,11 @@ import {scrollFunction} from './vanillajs'
                         <label for="card3" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
-                        <label for="card1" class="button a" aria-hidden="true">
+                        <label for="card3" class="button a" aria-hidden="true">
                         <small><a href="https://cse.iitkgp.ac.in/~spp/algos2aut2015.html" target="_blank"><small>More Details</small></a></small>
                         </label>
-                        <label for="card1" class="button b" aria-hidden="true">
-                        <label for="card1" class="b" aria-hidden="true">
+                        <label for="card3" class="button b" aria-hidden="true">
+                        <label for="card3" class="b" aria-hidden="true">
                         <small><small>Participants</small></small>
                         </label></label>
                     </div>
@@ -239,11 +244,11 @@ import {scrollFunction} from './vanillajs'
                         <label for="card4" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
-                        <label for="card1" class="button a" aria-hidden="true">
+                        <label for="card4" class="button a" aria-hidden="true">
                         <small><a href="https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/COA2011/index.htm" target="_blank"><small>More Details</small></a></small>
                         </label>
-                        <label for="card1" class="button b" aria-hidden="true">
-                        <label for="card1" class="b" aria-hidden="true">
+                        <label for="card4" class="button b" aria-hidden="true">
+                        <label for="card4" class="b" aria-hidden="true">
                         <small><small>Participants</small></small>
                         </label></label>
                     </div>
@@ -298,11 +303,11 @@ import {scrollFunction} from './vanillajs'
                         <label for="card5" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
-                        <label for="card1" class="button a" aria-hidden="true">
+                        <label for="card5" class="button a" aria-hidden="true">
                         <small><a href="http://cse.iitkgp.ac.in/~abhij/course/theory/DS/Autumn19/" target="_blank"><small>More Details</small></a></small>
                         </label>
-                        <label for="card1" class="button b" aria-hidden="true">
-                        <label for="card1" class="b" aria-hidden="true">
+                        <label for="card5" class="button b" aria-hidden="true">
+                        <label for="card5" class="b" aria-hidden="true">
                         <small><small>Participants</small></small>
                         </label></label>
                     </div>
@@ -355,12 +360,12 @@ import {scrollFunction} from './vanillajs'
                         <label for="card6" class="button return" aria-hidden="true">
                             <i class="fas fa-arrow-left"></i>
                         </label>
-                         <label for="card1" class="button a" aria-hidden="true">
+                         <label for="card6" class="button a" aria-hidden="true">
                         <small><a href="https://cse.iitkgp.ac.in/~dsamanta/courses/pds_lab/index.html" target="_blank"><small>More Details</small></a></small>
                         </label>
-                        <label for="card1" class="button b" aria-hidden="true">
-                        <label for="card1" class="b" aria-hidden="true">
-                        <small><small>Participants</small></small>
+                        <label for="card6" class="button b" aria-hidden="true">
+                        <label for="card6" class="b" aria-hidden="true"><button>
+                        <a href="https://cse.iitkgp.ac.in/~dsamanta/courses/pds_lab/index.html" style={{}} target="_blank">Participants</a></button>
                         </label></label>
                     </div>
                 </div>
@@ -368,6 +373,37 @@ import {scrollFunction} from './vanillajs'
             </div>
     </div>
 
+       </div>
+         
+    <div id="PARTICIPANTS" class="participants">
+        <br/> <br/> <br/> <hr/>
+        <h1>PARTICIPANTS</h1>
+        <div style={{msOverflowX:'auto'}} class="tbl">
+        <table>
+          <tr>
+            <th>Student Name</th>
+            <th>Roll Number</th>
+            <th></th>
+          </tr>
+         <span id="taab"></span>
+        <Participants name="TTT" rollno="19CS10001"/>
+
+        <Participants name="Tarun1" rollno="19AG10033"/>
+        <Participants name="TTT1" rollno="19CS10001"/>
+
+          <Participants name="Tarun2" rollno="19AG10033"/>
+           <Participants name="TTT2" rollno="19CS10001"/>
+           <Participants name="Tarun3" rollno="19AG10033"   />
+           
+        </table>
+
+        
+        <div><br/><br/><button onClick={()=>{
+        alert('All Participants are added Successfully');
+        }} class="button" style={{color:'black',zIndex:'5'}}>ADD ALL PARTICPANTS</button></div>
+        </div>
+        
+    </div>
             </div>
         )
     }
