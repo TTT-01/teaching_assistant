@@ -28,22 +28,65 @@ import './participants.css'
         let list="";
         let sub="PLEASE SELECT THE COURSE!";
         let list1=<React.Fragment>
-        <Participants1 name="Sukriti Sharma" gen="female" rollno="20AE10021"/>
-        <Participants1 name="Ganesh Dani" gen="female"rollno="19AG10013"/>
-        <Participants1 name="Amrita Palla"gen="female" rollno="19CS10001"/>
-        <Participants1 name="Hira Keer"gen="female" rollno="19AG10033"/>
-        <Participants1 name="Richa Wable"gen="female" rollno="19CS10001"/>
-         <Participants1 name="Nishi Naidu"gen="female" rollno="19AG10033"   />
+        <Participants1 name="Sukriti Sharma" gen="female" rollno="16CS30021"/>
+        <Participants1 name="Ganesh Dani" gen="female"rollno="16CS30013"/>
+        <Participants1 name="Amrita Palla"gen="male" rollno="16CS30001"/>
+        <Participants1 name="Hira Keer"gen="female" rollno="16CS30033"/>
+        <Participants1 name="Richa Wable"gen="male" rollno="16CS30001"/>
+         <Participants1 name="Nishi Naidu"gen="male" rollno="16CS30033"   />
+        
      </React.Fragment>;
   
         let list2=<React.Fragment>
-        <Participants2 name="Anees Chahal" gen="male" rollno="20AE10021"/>
-        <Participants2 name="Amrita Hegde" gen="female"rollno="19AG10013"/>
-        <Participants2 name="Chinmay Naidu" gen="female"rollno="19CS10001"/>
-        <Participants2 name="Urmi Sandal" gen="female"rollno="19AG10033"/>
-        <Participants2 name="Rajesh Dev Mody" gen="female"rollno="19CS10001"/>
-         <Participants2 name="Giaan Raj Mohabir" gen="female"rollno="19AG10033"   />
+        <Participants2 name="Anees Chahal" gen="male" rollno="17CS10021"/>
+        <Participants2 name="Amrita Hegde" gen="female"rollno="17CS10013"/>
+        <Participants2 name="Chinmay Naidu" gen="male"rollno="17CS10001"/>
+        <Participants2 name="Urmi Sandal" gen="male"rollno="17CS10033"/>
+        <Participants2 name="Rajesh Dev Mody" gen="female"rollno="17CS10001"/>
+         <Participants2 name="Giaan Raj Mohabir" gen="male"rollno="17CS10033"   />
+        
      </React.Fragment>;
+
+        let list3= <React.Fragment>
+        <Participants3 name="Manjari Tarun Sharma" gen="female" rollno="18CS10021"/>
+        <Participants3 name="Drishti Usman"gen="male" rollno="18CS10013"/>
+        <Participants3 name="Binoyya Din" gen="male"rollno="18CS10001"/>
+        <Participants3 name="Mini Ibrahim Tiwari" gen="female"rollno="18CS10033"/>
+        <Participants3 name="Radhe Mand"gen="male" rollno="18CS10001"/>
+         <Participants3 name="Jatin Verma"gen="male" rollno="18CS10033"   />
+        
+     </React.Fragment>;
+
+        let list4=
+        <React.Fragment>
+        <Participants4 name="Hemendra Lal Samuel" gen="male" rollno="18CS10021"/>
+        <Participants4 name="Bhola Yadu Nangat"gen="male" rollno="18CS10013"/>
+        <Participants4 name="Harpreet Raj Sethi" gen="female"rollno="18CS10001"/>
+        <Participants4 name="Sona Deep Brar"gen="female"rollno="18CS10033"/>
+        <Participants4 name="Shanti Prabhu"gen="male" rollno="18CS10001"/>
+         <Participants4 name="Mahmood Chandra Krishna" gen="male"rollno="18CS10033"   />
+         
+     </React.Fragment>;
+
+        let list5= <React.Fragment>
+        <Participants5 name="Chandradeep Kade" gen="female" rollno="19CS10021"/>
+        <Participants5 name="Surabh Surana"gen="female" rollno="19CS10013"/>
+        <Participants5 name="Upasana Mody"gen="male" rollno="19CS10001"/>
+        <Participants5 name="Sid Dad"gen="male" rollno="19CS10033"/>
+        <Participants5 name="Sahil Chandra Dugar" gen="female"rollno="19CS10001"/>
+         <Participants5 name="Kamlesh Mohanlal Thomas"gen="male" rollno="19CS10033"   />
+         
+     </React.Fragment>;
+
+        let list6=<React.Fragment>
+        <Participants6 name="Nikita Aayushman Rau" gen="male" rollno="20AE10021"/>
+        <Participants6 name="Koushtubh Gera" gen="male" rollno="20AG10013"/>
+        <Participants6 name="Kiran Tabeed Magar"gen="female" rollno="20BT10041"/>
+        <Participants6 name="Faraz Kumar Kannan"gen="male" rollno="20CS10028"/>
+        <Participants6 name="Avantika Minhas" gen="female"rollno="20EE30048"/>
+         <Participants6 name="Pravin Ran Ratti"gen="male" rollno="20NA10032"   />
+     </React.Fragment>;
+
 
         if(this.state.visible==="1"){
             sub="CS60041";
@@ -57,61 +100,32 @@ import './participants.css'
                 }
                 else if(this.state.visible==="3"){
                     sub="CS31005"
-                    list= 
-                    <React.Fragment>
-                      <Participants3 name="Manjari Tarun Sharma" gen="female" rollno="20AE10021"/>
-                      <Participants3 name="Drishti Usman"gen="female" rollno="19AG10013"/>
-                      <Participants3 name="Binoya Contractor" gen="female"rollno="19CS10001"/>
-                      <Participants3 name="Mini Ibrahim Tiwari" gen="female"rollno="19AG10033"/>
-                      <Participants3 name="Radhe Mand"gen="female" rollno="19CS10001"/>
-                       <Participants3 name="Jatin Verma"gen="female" rollno="19AG10033"   />
-                   </React.Fragment>;
+                    list= list3;
+                   
                     }
                     else if(this.state.visible==="4"){
                         sub="CS31007"
-                        list= 
-                        <React.Fragment>
-                          <Participants4 name="Hemendra Lal Samuel" gen="male" rollno="20AE10021"/>
-                          <Participants4 name="Bhola Yadu Nangat"gen="female" rollno="19AG10013"/>
-                          <Participants4 name="Harpreet Raj Sethi" gen="female"rollno="19CS10001"/>
-                          <Participants4 name="Sona Deep Brar"gen="female"rollno="19AG10033"/>
-                          <Participants4 name="Shanti Prabhu"gen="female" rollno="19CS10001"/>
-                           <Participants4 name="Mahmood Chandra Krishna" gen="female"rollno="19AG10033"   />
-                       </React.Fragment>;
+                        list= list4;
+                        
                         }
                         else if(this.state.visible==="5"){
                             sub="CS21001"
-                            list= 
-                            <React.Fragment>
-                              <Participants5 name="Chandradeep Kade" gen="female" rollno="20AE10021"/>
-                              <Participants5 name="Surabh Surana"gen="female" rollno="19AG10013"/>
-                              <Participants5 name="Upasana Mody"gen="female" rollno="19CS10001"/>
-                              <Participants5 name="Sid Dad"gen="female" rollno="19AG10033"/>
-                              <Participants5 name="Sahil Chandra Dugar" gen="female"rollno="19CS10001"/>
-                               <Participants5 name="Kamlesh Mohanlal Thomas"gen="female" rollno="19AG10033"   />
-                           </React.Fragment>;
+                            list= list5;
+                           
                             }
-       else if(this.state.visible==="6"){
-           sub="CS19001"
-          list= 
-          <React.Fragment>
-            <Participants6 name="Nikita Aayushman Rau" gen="female" rollno="20AE10021"/>
-            <Participants6 name="Koushtubh Gera" gen="female" rollno="20AG10013"/>
-            <Participants6 name="Kiran Tabeed Magar"gen="female" rollno="20BT10041"/>
-            <Participants6 name="Faraz Kumar Kannan"gen="female" rollno="20CS10028"/>
-            <Participants6 name="Avantika Minhas" gen="female"rollno="20EE30048"/>
-             <Participants6 name="Pravin Ran Ratti"gen="female" rollno="20NA10032"   />
-         </React.Fragment>;
-          }
-          else{
-              sub=<div>PLEASE SELECT THE COURSE!</div>;
-          }
+                             else if(this.state.visible==="6"){
+                                 sub="CS19001"
+                                list= list6;
+                                
+                                }
+                                    else{
+                                        sub=<div>PLEASE SELECT THE COURSE!</div>;
+                                    }
 
         return (
             <div class="sbj"  id="SUBJECTS" data-text="Subjects">
-               {// <img src={bg1} id="bg1" alt=""></img>
-               }
-                 <div  style={{color:'white',zIndex:4,top:'9vh'}}> <hr/> <br/> <hr/> <h1><big><big style={{textShadow:'1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue'}}>Subjects</big></big></h1>
+               <img src={bg1} id="bgg1" alt=""></img>
+                 <div  style={{color:'white',zIndex:4,top:'9vh'}}> <br/> <br/> <br/> <h1><big><big style={{textShadow:'1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue'}}>Subjects</big></big></h1>
                  <br/>
                <div class="wrapper">
                    
@@ -465,7 +479,7 @@ import './participants.css'
        </div>
          
     <div id="PARTICIPANTS" class="participants">
-        <br/> <br/> <br/> <hr/>
+        <br/> <br/> <br/>
         <h1>PARTICIPANTS</h1>
         <span> <big> Present Course: {sub} </big></span>
         <div style={{msOverflowX:'auto'}} class="tbl">
@@ -489,10 +503,13 @@ import './participants.css'
        
         </table>
 
+        <div><br/>
+                        <button onClick={()=>{
+                                        alert('All Participants from the course '+sub+' are added Successfully');
+                                        }} class="button" style={{color:'black',zIndex:'5'}}>ADD ALL PARTICPANTS
+                        </button>
+         </div>
         
-        <div><br/><br/><button onClick={()=>{
-        alert('All Participants from the course '+sub+' are added Successfully');
-        }} class="button" style={{color:'black',zIndex:'5'}}>ADD ALL PARTICPANTS</button></div>
         </div>
         
     </div>

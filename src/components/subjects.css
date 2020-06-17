@@ -41,11 +41,11 @@ button:active {
     width: 100vw;
   
   }
-  #bg1
+  #bgg1
     {
       margin: 0;
       position: absolute;
-      top: 20%;
+      top: 40%;
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       left: 0;
@@ -53,8 +53,8 @@ button:active {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50vw;
-      height: 70vh;
+      width: 15vw;
+      height: 35vh;
       opacity: 0.2;   
       position: fixed;  
       animation: b1 9s ease-in-out infinite;
@@ -300,6 +300,7 @@ button:active {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     text-shadow: none;
     color: #355cc9;
+    z-index: 4;
   }
   .button.return {
       display: inline;
@@ -337,7 +338,6 @@ button:active {
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: DodgerBlue;
     width: 100%;
     justify-content: center;
     justify-self: center;
