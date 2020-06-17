@@ -3,23 +3,114 @@ import './subjects.css'
 import kgp from './img/KGP.jfif'
 import bg1 from './img/bulb.png'
 import {scrollFunction} from './vanillajs'
-import Participants from './Participants'
+import Participants1 from './Participants1'
+import Participants2 from './Participants2'
+import Participants3 from './Participants3'
+import Participants4 from './Participants4'
+import Participants5 from './Participants5'
+import Participants6 from './Participants6'
 import './participants.css'
+
 
 
 
  class Subjects extends Component {
          
     componentDidMount() {
-    
         scrollFunction(); 
     }
     
+    state={
+        visible:"0"
+    }
 
     render() {
+        let list="";
+        let sub="PLEASE SELECT THE COURSE!";
+        let list1=<React.Fragment>
+        <Participants1 name="Sukriti Sharma" gen="female" rollno="20AE10021"/>
+        <Participants1 name="Ganesh Dani" gen="female"rollno="19AG10013"/>
+        <Participants1 name="Amrita Palla"gen="female" rollno="19CS10001"/>
+        <Participants1 name="Hira Keer"gen="female" rollno="19AG10033"/>
+        <Participants1 name="Richa Wable"gen="female" rollno="19CS10001"/>
+         <Participants1 name="Nishi Naidu"gen="female" rollno="19AG10033"   />
+     </React.Fragment>;
+  
+        let list2=<React.Fragment>
+        <Participants2 name="Anees Chahal" gen="male" rollno="20AE10021"/>
+        <Participants2 name="Amrita Hegde" gen="female"rollno="19AG10013"/>
+        <Participants2 name="Chinmay Naidu" gen="female"rollno="19CS10001"/>
+        <Participants2 name="Urmi Sandal" gen="female"rollno="19AG10033"/>
+        <Participants2 name="Rajesh Dev Mody" gen="female"rollno="19CS10001"/>
+         <Participants2 name="Giaan Raj Mohabir" gen="female"rollno="19AG10033"   />
+     </React.Fragment>;
+
+        if(this.state.visible==="1"){
+            sub="CS60041";
+            list= list1;
+            
+            }
+            else if(this.state.visible==="2"){
+                sub="CS41001"
+                list= list2;
+                
+                }
+                else if(this.state.visible==="3"){
+                    sub="CS31005"
+                    list= 
+                    <React.Fragment>
+                      <Participants3 name="Manjari Tarun Sharma" gen="female" rollno="20AE10021"/>
+                      <Participants3 name="Drishti Usman"gen="female" rollno="19AG10013"/>
+                      <Participants3 name="Binoya Contractor" gen="female"rollno="19CS10001"/>
+                      <Participants3 name="Mini Ibrahim Tiwari" gen="female"rollno="19AG10033"/>
+                      <Participants3 name="Radhe Mand"gen="female" rollno="19CS10001"/>
+                       <Participants3 name="Jatin Verma"gen="female" rollno="19AG10033"   />
+                   </React.Fragment>;
+                    }
+                    else if(this.state.visible==="4"){
+                        sub="CS31007"
+                        list= 
+                        <React.Fragment>
+                          <Participants4 name="Hemendra Lal Samuel" gen="male" rollno="20AE10021"/>
+                          <Participants4 name="Bhola Yadu Nangat"gen="female" rollno="19AG10013"/>
+                          <Participants4 name="Harpreet Raj Sethi" gen="female"rollno="19CS10001"/>
+                          <Participants4 name="Sona Deep Brar"gen="female"rollno="19AG10033"/>
+                          <Participants4 name="Shanti Prabhu"gen="female" rollno="19CS10001"/>
+                           <Participants4 name="Mahmood Chandra Krishna" gen="female"rollno="19AG10033"   />
+                       </React.Fragment>;
+                        }
+                        else if(this.state.visible==="5"){
+                            sub="CS21001"
+                            list= 
+                            <React.Fragment>
+                              <Participants5 name="Chandradeep Kade" gen="female" rollno="20AE10021"/>
+                              <Participants5 name="Surabh Surana"gen="female" rollno="19AG10013"/>
+                              <Participants5 name="Upasana Mody"gen="female" rollno="19CS10001"/>
+                              <Participants5 name="Sid Dad"gen="female" rollno="19AG10033"/>
+                              <Participants5 name="Sahil Chandra Dugar" gen="female"rollno="19CS10001"/>
+                               <Participants5 name="Kamlesh Mohanlal Thomas"gen="female" rollno="19AG10033"   />
+                           </React.Fragment>;
+                            }
+       else if(this.state.visible==="6"){
+           sub="CS19001"
+          list= 
+          <React.Fragment>
+            <Participants6 name="Nikita Aayushman Rau" gen="female" rollno="20AE10021"/>
+            <Participants6 name="Koushtubh Gera" gen="female" rollno="20AG10013"/>
+            <Participants6 name="Kiran Tabeed Magar"gen="female" rollno="20BT10041"/>
+            <Participants6 name="Faraz Kumar Kannan"gen="female" rollno="20CS10028"/>
+            <Participants6 name="Avantika Minhas" gen="female"rollno="20EE30048"/>
+             <Participants6 name="Pravin Ran Ratti"gen="female" rollno="20NA10032"   />
+         </React.Fragment>;
+          }
+          else{
+              sub=<div>PLEASE SELECT THE COURSE!</div>;
+          }
+
         return (
             <div class="sbj"  id="SUBJECTS" data-text="Subjects">
-                <img src={bg1} id="bg1" alt=""></img>
+               {// <img src={bg1} id="bg1" alt=""></img>
+               }
                  <div  style={{color:'white',zIndex:4,top:'9vh'}}> <hr/> <br/> <hr/> <h1><big><big style={{textShadow:'1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue'}}>Subjects</big></big></h1>
                  <br/>
                <div class="wrapper">
@@ -76,9 +167,8 @@ import './participants.css'
                         <small><a href="https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/Crypto/index.htm" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card1" class="button b" aria-hidden="true">
-                        <label for="card1" class="b" aria-hidden="true">
-                        <small><a href="https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/Crypto/index.htm" ><small>Participants</small></a></small>
-                        </label></label>
+                        <label for="card1" class="b" aria-hidden="true"><button onClick={()=>{this.setState({visible:"1"})}}>
+                        <a href="#PARTICIPANTS" style={{}}>Participants</a></button>  </label></label>
                     </div>
                 </div>
             </div>
@@ -135,8 +225,8 @@ import './participants.css'
                         <small><a href="https://cse.iitkgp.ac.in/~somindu/toc-2019/toc.html" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card2" class="button b" aria-hidden="true">
-                        <label for="card2" class="b" aria-hidden="true">
-                        <small><small>Participants</small></small>
+                        <label for="card2" class="b" aria-hidden="true"><button onClick={()=>{this.setState({visible:"2"})}}>
+                        <a href="#PARTICIPANTS" style={{}}>Participants</a></button>
                         </label></label>
                     </div>
                 </div>
@@ -191,8 +281,8 @@ import './participants.css'
                         <small><a href="https://cse.iitkgp.ac.in/~spp/algos2aut2015.html" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card3" class="button b" aria-hidden="true">
-                        <label for="card3" class="b" aria-hidden="true">
-                        <small><small>Participants</small></small>
+                        <label for="card3" class="b" aria-hidden="true"><button onClick={()=>{this.setState({visible:"3"})}}>
+                        <a href="#PARTICIPANTS" style={{}}>Participants</a></button>
                         </label></label>
                     </div>
                 </div>
@@ -248,8 +338,8 @@ import './participants.css'
                         <small><a href="https://cse.iitkgp.ac.in/~debdeep/courses_iitkgp/COA2011/index.htm" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card4" class="button b" aria-hidden="true">
-                        <label for="card4" class="b" aria-hidden="true">
-                        <small><small>Participants</small></small>
+                        <label for="card4" class="b" aria-hidden="true"><button onClick={()=>{this.setState({visible:"4"})}}>
+                        <a href="#PARTICIPANTS" style={{}}>Participants</a></button>
                         </label></label>
                     </div>
                 </div>
@@ -307,9 +397,8 @@ import './participants.css'
                         <small><a href="http://cse.iitkgp.ac.in/~abhij/course/theory/DS/Autumn19/" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card5" class="button b" aria-hidden="true">
-                        <label for="card5" class="b" aria-hidden="true">
-                        <small><small>Participants</small></small>
-                        </label></label>
+                        <label for="card5" class="b" aria-hidden="true"><button onClick={()=>{this.setState({visible:"5"})}}>
+                        <a href="#PARTICIPANTS" style={{}}>Participants</a></button></label></label>
                     </div>
                 </div>
             </div>
@@ -364,8 +453,8 @@ import './participants.css'
                         <small><a href="https://cse.iitkgp.ac.in/~dsamanta/courses/pds_lab/index.html" target="_blank"><small>More Details</small></a></small>
                         </label>
                         <label for="card6" class="button b" aria-hidden="true">
-                        <label for="card6" class="b" aria-hidden="true"><button>
-                        <a href="https://cse.iitkgp.ac.in/~dsamanta/courses/pds_lab/index.html" style={{}} target="_blank">Participants</a></button>
+                        <label for="card6" class="b" aria-hidden="true"><button onClick={()=>{this.setState({visible:"6"})}}>
+                        <a href="#PARTICIPANTS" style={{}}>Participants</a></button>
                         </label></label>
                     </div>
                 </div>
@@ -378,28 +467,31 @@ import './participants.css'
     <div id="PARTICIPANTS" class="participants">
         <br/> <br/> <br/> <hr/>
         <h1>PARTICIPANTS</h1>
+        <span> <big> Present Course: {sub} </big></span>
         <div style={{msOverflowX:'auto'}} class="tbl">
+        <span class="flex-container">
+                <button onClick={()=>{this.setState({visible:"1"})}}>CS60041</button> &nbsp; &nbsp;
+                <button onClick={()=>{this.setState({visible:"2"})}}>CS41001</button> &nbsp; &nbsp;
+                <button onClick={()=>{this.setState({visible:"3"})}}>CS31005</button> &nbsp; &nbsp;
+                <button onClick={()=>{this.setState({visible:"4"})}}>CS31007</button> &nbsp; &nbsp;
+                <button onClick={()=>{this.setState({visible:"5"})}}>CS21001</button> &nbsp; &nbsp;
+                <button onClick={()=>{this.setState({visible:"6"})}}>CS19001</button> &nbsp; &nbsp;
+            </span>
         <table>
+           
           <tr>
             <th>Student Name</th>
             <th>Roll Number</th>
             <th></th>
           </tr>
          <span id="taab"></span>
-        <Participants name="TTT" rollno="19CS10001"/>
-
-        <Participants name="Tarun1" rollno="19AG10033"/>
-        <Participants name="TTT1" rollno="19CS10001"/>
-
-          <Participants name="Tarun2" rollno="19AG10033"/>
-           <Participants name="TTT2" rollno="19CS10001"/>
-           <Participants name="Tarun3" rollno="19AG10033"   />
-           
+         {list}
+       
         </table>
 
         
         <div><br/><br/><button onClick={()=>{
-        alert('All Participants are added Successfully');
+        alert('All Participants from the course '+sub+' are added Successfully');
         }} class="button" style={{color:'black',zIndex:'5'}}>ADD ALL PARTICPANTS</button></div>
         </div>
         
@@ -408,5 +500,8 @@ import './participants.css'
         )
     }
 }
+
+
+
 
 export default Subjects

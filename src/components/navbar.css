@@ -63,10 +63,15 @@
     transition: .3s;
   }
 
+  .nav:hover{
+    transform: scale(1.01);
+  }
+
 
 .nav-item:not(.is-active):hover:before {
   opacity: 1;
   bottom: 0;
+  
 }
 
 

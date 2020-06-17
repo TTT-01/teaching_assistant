@@ -3,10 +3,9 @@ import './participants.css'
 import React, { Component } from 'react'
 import { confirmAlert } from 'react-confirm-alert'; 
 import 'react-confirm-alert/src/react-confirm-alert.css'
-import {useAlert} from 'react-alert'
 
 
- class Participants extends Component {
+ class Participants1 extends Component {
     componentDidMount() {
      
     }
@@ -17,7 +16,7 @@ import {useAlert} from 'react-alert'
         return (
             <React.Fragment>
           <tr id={this.props.name}>
-            <td>{this.props.name}</td>
+        <td>{this.props.name}<small><small>({this.props.gen})</small></small></td>
             <td>{this.props.rollno}</td>
             <td><button onClick={() => {
       confirmAlert({
@@ -28,7 +27,7 @@ import {useAlert} from 'react-alert'
             label: 'Yes',
             onClick: () => {
               alert('The Student with credentials \n Name:'+this.props.name+'\n Roll Number:'+this.props.rollno+'\n has been deregistered from the course');
-              document.getElementById(this.props.name).style.display="none";
+              document.getElementById(this.props.name).innerHTML=("");
             }
           },
           {
@@ -37,7 +36,7 @@ import {useAlert} from 'react-alert'
           }
         ]
       })
-    }} style={{color:'red',fontWeight:'600'}}>DEREGISTER</button></td>      
+    }} style={{color:'red',fontWeight:'600'}}>DEREGISTER</button></td>     
           </tr>
           
       </React.Fragment>
@@ -45,4 +44,4 @@ import {useAlert} from 'react-alert'
     }
 }
 
-export default Participants
+export default Participants1
