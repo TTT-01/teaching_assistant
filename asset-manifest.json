@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/teaching_assistant/static/css/main.1663c482.chunk.css",
-    "main.js": "/teaching_assistant/static/js/main.cc6c4cb1.chunk.js",
-    "main.js.map": "/teaching_assistant/static/js/main.cc6c4cb1.chunk.js.map",
+    "main.css": "/teaching_assistant/static/css/main.e513f8d2.chunk.css",
+    "main.js": "/teaching_assistant/static/js/main.8cc30b4a.chunk.js",
+    "main.js.map": "/teaching_assistant/static/js/main.8cc30b4a.chunk.js.map",
     "runtime-main.js": "/teaching_assistant/static/js/runtime-main.1ebbc928.js",
     "runtime-main.js.map": "/teaching_assistant/static/js/runtime-main.1ebbc928.js.map",
-    "static/js/2.7db47d22.chunk.js": "/teaching_assistant/static/js/2.7db47d22.chunk.js",
-    "static/js/2.7db47d22.chunk.js.map": "/teaching_assistant/static/js/2.7db47d22.chunk.js.map",
+    "static/css/2.627926fe.chunk.css": "/teaching_assistant/static/css/2.627926fe.chunk.css",
+    "static/js/2.204d76f9.chunk.js": "/teaching_assistant/static/js/2.204d76f9.chunk.js",
+    "static/js/2.204d76f9.chunk.js.map": "/teaching_assistant/static/js/2.204d76f9.chunk.js.map",
     "index.html": "/teaching_assistant/index.html",
-    "precache-manifest.b9c74c7859640ef95db57cd719afc436.js": "/teaching_assistant/precache-manifest.b9c74c7859640ef95db57cd719afc436.js",
+    "precache-manifest.445e762c008909ac1a8d77a9641864c4.js": "/teaching_assistant/precache-manifest.445e762c008909ac1a8d77a9641864c4.js",
     "service-worker.js": "/teaching_assistant/service-worker.js",
-    "static/css/main.1663c482.chunk.css.map": "/teaching_assistant/static/css/main.1663c482.chunk.css.map",
-    "static/js/2.7db47d22.chunk.js.LICENSE.txt": "/teaching_assistant/static/js/2.7db47d22.chunk.js.LICENSE.txt",
+    "static/css/2.627926fe.chunk.css.map": "/teaching_assistant/static/css/2.627926fe.chunk.css.map",
+    "static/css/main.e513f8d2.chunk.css.map": "/teaching_assistant/static/css/main.e513f8d2.chunk.css.map",
+    "static/js/2.204d76f9.chunk.js.LICENSE.txt": "/teaching_assistant/static/js/2.204d76f9.chunk.js.LICENSE.txt",
     "static/media/KGP.jfif": "/teaching_assistant/static/media/KGP.e0d54196.jfif",
     "static/media/bg.mp3": "/teaching_assistant/static/media/bg.39903cc1.mp3",
     "static/media/bg.mp4": "/teaching_assistant/static/media/bg.a24476fa.mp4",
@@ -22,8 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1ebbc928.js",
-    "static/js/2.7db47d22.chunk.js",
-    "static/css/main.1663c482.chunk.css",
-    "static/js/main.cc6c4cb1.chunk.js"
+    "static/css/2.627926fe.chunk.css",
+    "static/js/2.204d76f9.chunk.js",
+    "static/css/main.e513f8d2.chunk.css",
+    "static/js/main.8cc30b4a.chunk.js"
   ]
 }
