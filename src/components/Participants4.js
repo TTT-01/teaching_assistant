@@ -26,7 +26,7 @@ import 'react-confirm-alert/src/react-confirm-alert.css'
           {
             label: 'Yes',
             onClick: () => {
-              alert('The Student with credentials \n Name:'+this.props.name+'\n Roll Number:'+this.props.rollno+'\n has been deregistered from the course');
+              alert('The Student with credentials \n Name:'+this.props.name+'\n Roll Number:'+this.props.rollno+'\n has been deregistered from the course:CS31007');
               document.getElementById(this.props.name).innerHTML=("");
             }
           },
