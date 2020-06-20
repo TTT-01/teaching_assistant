@@ -32,11 +32,10 @@ import 'react-confirm-alert/src/react-confirm-alert.css'
           },
           {
             label: 'No',
-            onClick:()=>{alert('kevvukeka')}
           }
         ]
       })
-    }} style={{color:'red',fontWeight:'600'}}>DEREGISTER</button></td>     
+    }} style={{color:'red',fontWeight:'600'}} class="buttond">DEREGISTER</button></td>     
           </tr>
           
       </React.Fragment>

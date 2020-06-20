@@ -9,7 +9,7 @@ import Participants3 from './Participants3'
 import Participants4 from './Participants4'
 import Participants5 from './Participants5'
 import Participants6 from './Participants6'
-import './participants.css'
+//import './participants.css'
 
 
 
@@ -30,52 +30,52 @@ import './participants.css'
         let c1=1;
         let list1=<React.Fragment>
         <Participants1 name="Sukriti Sharma" gen="female" rollno="16CS30021"/>
-        <Participants1 name="Ganesh Dani" gen="female"rollno="16CS30013"/>
-        <Participants1 name="Amrita Palla"gen="male" rollno="16CS30001"/>
-        <Participants1 name="Hira Keer"gen="female" rollno="16CS30033"/>
-        <Participants1 name="Richa Wable"gen="male" rollno="16CS30001"/>
-         <Participants1 name="Nishi Naidu"gen="male" rollno="16CS30033"   />
+        <Participants1 name="Ganesh Dani" gen="female"rollno="16CS30043"/>
+        <Participants1 name="Amrita Palla"gen="male" rollno="16CS30025"/>
+        <Participants1 name="Hira Keer"gen="female" rollno="16CS30018"/>
+        <Participants1 name="Richa Wable"gen="male" rollno="16CS30022"/>
+         <Participants1 name="Nishi Naidu"gen="male" rollno="16CS30011"   />
         
      </React.Fragment>;
   
         let list2=<React.Fragment>
         <Participants2 name="Anees Chahal" gen="male" rollno="17CS10021"/>
-        <Participants2 name="Amrita Hegde" gen="female"rollno="17CS10013"/>
-        <Participants2 name="Chinmay Naidu" gen="male"rollno="17CS10001"/>
-        <Participants2 name="Urmi Sandal" gen="male"rollno="17CS10033"/>
-        <Participants2 name="Rajesh Dev Mody" gen="female"rollno="17CS10001"/>
+        <Participants2 name="Amrita Hegde" gen="female"rollno="17CS10024"/>
+        <Participants2 name="Chinmay Naidu" gen="male"rollno="17CS10018"/>
+        <Participants2 name="Urmi Sandal" gen="male"rollno="17CS10032"/>
+        <Participants2 name="Rajesh Dev Mody" gen="female"rollno="17CS10011"/>
          <Participants2 name="Giaan Raj Mohabir" gen="male"rollno="17CS10033"   />
         
      </React.Fragment>;
 
         let list3= <React.Fragment>
-        <Participants3 name="Manjari Tarun Sharma" gen="female" rollno="18CS10021"/>
-        <Participants3 name="Drishti Usman"gen="male" rollno="18CS10013"/>
-        <Participants3 name="Binoyya Din" gen="male"rollno="18CS10001"/>
-        <Participants3 name="Mini Ibrahim Tiwari" gen="female"rollno="18CS10033"/>
-        <Participants3 name="Radhe Mand"gen="male" rollno="18CS10001"/>
-         <Participants3 name="Jatin Verma"gen="male" rollno="18CS10033"   />
+        <Participants3 name="Manjari Tarun Sharma" gen="female" rollno="18CS1001"/>
+        <Participants3 name="Drishti Usman"gen="male" rollno="18CS10003"/>
+        <Participants3 name="Binoyya Din" gen="male"rollno="18CS10029"/>
+        <Participants3 name="Mini Ibrahim Tiwari" gen="female"rollno="18CS10037"/>
+        <Participants3 name="Radhe Mand"gen="male" rollno="18CS10041"/>
+         <Participants3 name="Jatin Verma"gen="male" rollno="18CS10038"   />
         
      </React.Fragment>;
 
         let list4=
         <React.Fragment>
         <Participants4 name="Hemendra Lal Samuel" gen="male" rollno="18CS10021"/>
-        <Participants4 name="Bhola Yadu Nangat"gen="male" rollno="18CS10013"/>
-        <Participants4 name="Harpreet Raj Sethi" gen="female"rollno="18CS10001"/>
-        <Participants4 name="Sona Deep Brar"gen="female"rollno="18CS10033"/>
-        <Participants4 name="Shanti Prabhu"gen="male" rollno="18CS10001"/>
-         <Participants4 name="Mahmood Chandra Krishna" gen="male"rollno="18CS10033"   />
+        <Participants4 name="Bhola Yadu Nangat"gen="male" rollno="18CS10019"/>
+        <Participants4 name="Harpreet Raj Sethi" gen="female"rollno="18CS10031"/>
+        <Participants4 name="Sona Deep Brar"gen="female"rollno="18CS10034"/>
+        <Participants4 name="Shanti Prabhu"gen="male" rollno="18CS10005"/>
+         <Participants4 name="Mahmood Chandra Krishna" gen="male"rollno="18CS10003"   />
          
      </React.Fragment>;
 
         let list5= <React.Fragment>
         <Participants5 name="Chandradeep Kade" gen="female" rollno="19CS10021"/>
         <Participants5 name="Surabh Surana"gen="female" rollno="19CS10013"/>
-        <Participants5 name="Upasana Mody"gen="male" rollno="19CS10001"/>
-        <Participants5 name="Sid Dad"gen="male" rollno="19CS10033"/>
-        <Participants5 name="Sahil Chandra Dugar" gen="female"rollno="19CS10001"/>
-         <Participants5 name="Kamlesh Mohanlal Thomas"gen="male" rollno="19CS10033"   />
+        <Participants5 name="Upasana Mody"gen="male" rollno="19CS10041"/>
+        <Participants5 name="Sid Dad"gen="male" rollno="19CS10019"/>
+        <Participants5 name="Sahil Chandra Dugar" gen="female"rollno="19CS10044"/>
+         <Participants5 name="Kamlesh Mohanlal Thomas"gen="male" rollno="19CS10013"   />
          
      </React.Fragment>;
 
@@ -450,10 +450,9 @@ import './participants.css'
                            
                         </div>
                         <div class="info">
-                        <div class="icon">
-                                
+                        <div class="icon">                               
                                 <span>Semester</span>
-                            </div>
+                        </div>
                             <span>2</span>
                            
                         </div>
@@ -509,7 +508,7 @@ import './participants.css'
         <div><br/>
                         <button onClick={()=>{
                                         alert('All Participants from the course '+sub+' are added Successfully');
-                                        }} class="button" style={{color:'black',zIndex:'5'}}>ADD ALL PARTICPANTS
+                                        }} class="button" style={{color:'black',zIndex:'5',cursor:'pointer',transform:'scale(1.01)'}}>ADD ALL PARTICPANTS
                         </button>
          </div>
         

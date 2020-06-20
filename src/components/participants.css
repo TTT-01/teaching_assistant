@@ -1,4 +1,5 @@
 #PARTICIPANTS{
+
     background-color: yellow;
     align-items: center;
     justify-content: center;
@@ -30,7 +31,7 @@ background-size: 30px 30px, 90px 90px;
 background-position: 0 0;*/
 
     z-index: 3;
-  
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur222.cur), auto !important;
 }
 
 
@@ -79,7 +80,9 @@ tr:hover{
 }
 
 
-
+.buttond{
+  cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1152.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1152.png), auto !important;
+}
 
 
 
