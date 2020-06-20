@@ -37,8 +37,14 @@ button:active {
   .sbj{
     top: 100vh;
     position: absolute;
-    background-color: #116466;
+    
     width: 100vw;
+    background: #9500FF;
+    background: -webkit-linear-gradient(45deg, #6AFF00, #9500FF);
+    background: -o-linear-gradient(45deg, #6AFF00, #9500FF);
+    background: -moz-linear-gradient(45deg, #6AFF00, #9500FF);
+    background: linear-gradient(45deg, #6AFF00, #9500FF);
+
   
   }
   #bgg1
@@ -345,7 +351,7 @@ button:active {
 
   .flex-container button{
     color: rgb(255, 255, 255);
-    background-color: lightcoral;
+    background-color: #FF0087;
     font-size: 14px;
   }
 

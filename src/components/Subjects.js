@@ -27,6 +27,7 @@ import './participants.css'
     render() {
         let list="";
         let sub="PLEASE SELECT THE COURSE!";
+        let c1=1;
         let list1=<React.Fragment>
         <Participants1 name="Sukriti Sharma" gen="female" rollno="16CS30021"/>
         <Participants1 name="Ganesh Dani" gen="female"rollno="16CS30013"/>
@@ -87,40 +88,42 @@ import './participants.css'
          <Participants6 name="Pravin Ran Ratti"gen="male" rollno="20NA10032"   />
      </React.Fragment>;
 
-
+       
         if(this.state.visible==="1"){
             sub="CS60041";
-            list= list1;
             
+            list= list1;
+            c1+=1;
             }
             else if(this.state.visible==="2"){
                 sub="CS41001"
-                list= list2;
+                list= list2;c1+=1;
                 
                 }
                 else if(this.state.visible==="3"){
                     sub="CS31005"
-                    list= list3;
+                    list= list3;c1+=1;
                    
                     }
                     else if(this.state.visible==="4"){
                         sub="CS31007"
-                        list= list4;
+                        list= list4;c1+=1;
                         
                         }
                         else if(this.state.visible==="5"){
                             sub="CS21001"
-                            list= list5;
+                            list= list5;c1+=1;
                            
                             }
                              else if(this.state.visible==="6"){
                                  sub="CS19001"
-                                list= list6;
+                                list= list6;c1+=1;
                                 
                                 }
                                     else{
                                         sub=<div>PLEASE SELECT THE COURSE!</div>;
                                     }
+        
 
         return (
             <div class="sbj"  id="SUBJECTS" data-text="Subjects">
@@ -494,8 +497,8 @@ import './participants.css'
         <table>
            
           <tr>
-            <th>Student Name</th>
-            <th>Roll Number</th>
+            <th style={{color:'black'}}>Student Name</th>
+            <th style={{color:'black'}}>Roll Number</th>
             <th></th>
           </tr>
          <span id="taab"></span>
