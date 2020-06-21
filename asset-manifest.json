@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/teaching_assistant/static/css/main.a9c59006.chunk.css",
-    "main.js": "/teaching_assistant/static/js/main.82422bfd.chunk.js",
-    "main.js.map": "/teaching_assistant/static/js/main.82422bfd.chunk.js.map",
+    "main.js": "/teaching_assistant/static/js/main.67e93f4b.chunk.js",
+    "main.js.map": "/teaching_assistant/static/js/main.67e93f4b.chunk.js.map",
     "runtime-main.js": "/teaching_assistant/static/js/runtime-main.1ebbc928.js",
     "runtime-main.js.map": "/teaching_assistant/static/js/runtime-main.1ebbc928.js.map",
     "static/css/2.627926fe.chunk.css": "/teaching_assistant/static/css/2.627926fe.chunk.css",
-    "static/js/2.af38c48c.chunk.js": "/teaching_assistant/static/js/2.af38c48c.chunk.js",
-    "static/js/2.af38c48c.chunk.js.map": "/teaching_assistant/static/js/2.af38c48c.chunk.js.map",
+    "static/js/2.57ef89c2.chunk.js": "/teaching_assistant/static/js/2.57ef89c2.chunk.js",
+    "static/js/2.57ef89c2.chunk.js.map": "/teaching_assistant/static/js/2.57ef89c2.chunk.js.map",
     "index.html": "/teaching_assistant/index.html",
-    "precache-manifest.f1d2f0d94675dd085c72dc481b87e2f4.js": "/teaching_assistant/precache-manifest.f1d2f0d94675dd085c72dc481b87e2f4.js",
+    "precache-manifest.052f6bbb72c705861ee10242c3cd2d2f.js": "/teaching_assistant/precache-manifest.052f6bbb72c705861ee10242c3cd2d2f.js",
     "service-worker.js": "/teaching_assistant/service-worker.js",
     "static/css/2.627926fe.chunk.css.map": "/teaching_assistant/static/css/2.627926fe.chunk.css.map",
     "static/css/main.a9c59006.chunk.css.map": "/teaching_assistant/static/css/main.a9c59006.chunk.css.map",
-    "static/js/2.af38c48c.chunk.js.LICENSE.txt": "/teaching_assistant/static/js/2.af38c48c.chunk.js.LICENSE.txt",
+    "static/js/2.57ef89c2.chunk.js.LICENSE.txt": "/teaching_assistant/static/js/2.57ef89c2.chunk.js.LICENSE.txt",
     "static/media/KGP.jfif": "/teaching_assistant/static/media/KGP.e0d54196.jfif",
     "static/media/bg.mp3": "/teaching_assistant/static/media/bg.39903cc1.mp3",
     "static/media/bg.mp4": "/teaching_assistant/static/media/bg.a24476fa.mp4",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.1ebbc928.js",
     "static/css/2.627926fe.chunk.css",
-    "static/js/2.af38c48c.chunk.js",
+    "static/js/2.57ef89c2.chunk.js",
     "static/css/main.a9c59006.chunk.css",
-    "static/js/main.82422bfd.chunk.js"
+    "static/js/main.67e93f4b.chunk.js"
   ]
 }
