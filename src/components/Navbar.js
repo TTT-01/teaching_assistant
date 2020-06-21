@@ -15,8 +15,8 @@ import favicon from './img/favicon.jpg'
                 <div className="nav0">
                     <img className="favicon"  src={favicon} alt=""/>
                      <nav class="nav">
-                      <a href="#" class="nav-item is-active" active-color="orange" style={{}}>Home</a>
-                      <a href="#SUBJECTS" class="nav-item" active-color="green">Subjects</a>
+                      <a href="#" class="nav-item is-active" active-color="orange" onClick={()=>document.getElementById("bbg").style.animation = "tble3 2s 1"} style={{}}>Home</a>
+                      <a href="#SUBJECTS" class="nav-item" active-color="green" onClick={()=>document.getElementById("wrapper").style.animation = "tble2 3s 1"}>Subjects</a>
                       <a href="#PARTICIPANTS" class="nav-item" active-color="blue">Participants</a>
                      
                       <span class="nav-indicator"></span>

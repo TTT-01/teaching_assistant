@@ -31,7 +31,7 @@ const screenfull = require('screenfull');
     render() {
         return (
             <div>
-                <div className="bg">
+                <div className="bg" id="bbg">
                       <div class="container0">
                         <div class="cntr0" style={{fontFamily:'Lucida Bright'}}>
                         <div class="overlay0"><h1 class="text0" style={{color:'white',textShadow:'1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue'}}><big>I am a dedicated  </big></h1><big>👨‍🎓</big></div>

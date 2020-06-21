@@ -8,6 +8,7 @@
   top: 0.1rem;
   z-index: 5;
   position: fixed;
+  animation: tble 4s ease-out 1;
 }
 
 .favicon{
@@ -17,6 +18,8 @@
     align-self: start;
     z-index: 1;
     position: fixed;
+    animation: tble 8s ease-out 1;
+
 }
 
 .nav {

@@ -3,11 +3,42 @@ import './participants.css'
 import React, { Component } from 'react'
 import { confirmAlert } from 'react-confirm-alert'; 
 import 'react-confirm-alert/src/react-confirm-alert.css'
+import SweetAlert from 'react-bootstrap-sweetalert';
 
 
- class Participants4 extends Component {
+ class Participants6 extends Component {
     componentDidMount() {
      
+    }
+    constructor(props) {
+      super(props);
+  
+      this.state = {
+        alert: null
+      };
+    } 
+  
+    deleteThisGoal() {
+      const getAlert = () => (
+        <SweetAlert 
+            
+          title="DEREGISTERED" 
+          onConfirm={() => this.hideAlert()}
+        >
+        The Student with credentials <br/> Name: {this.props.name} <br/> Roll Number: {this.props.rollno} <br/> has been deregistered from the course:CS31007
+        </SweetAlert>
+      );
+  
+      this.setState({
+        alert: getAlert()
+      });
+    }
+  
+    hideAlert() {
+      console.log('Hiding alert...');
+      this.setState({
+        alert: null
+      });
     }
     
     
@@ -15,6 +46,7 @@ import 'react-confirm-alert/src/react-confirm-alert.css'
     render() {
         return (
             <React.Fragment>
+              {this.state.alert}
           <tr id={this.props.name}>
         <td>{this.props.name}<small><small>({this.props.gen})</small></small></td>
             <td>{this.props.rollno}</td>
@@ -26,8 +58,8 @@ import 'react-confirm-alert/src/react-confirm-alert.css'
           {
             label: 'Yes',
             onClick: () => {
-              alert('The Student with credentials \n Name:'+this.props.name+'\n Roll Number:'+this.props.rollno+'\n has been deregistered from the course:CS31007');
               document.getElementById(this.props.name).innerHTML=("");
+              this.deleteThisGoal();
             }
           },
           {
@@ -43,4 +75,4 @@ import 'react-confirm-alert/src/react-confirm-alert.css'
     }
 }
 
-export default Participants4
+export default Participants6

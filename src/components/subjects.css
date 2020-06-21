@@ -63,8 +63,9 @@ button:active {
       height: 35vh;
       opacity: 0.2;   
       position: fixed;  
-      animation: b1 9s ease-in-out infinite;
+      animation: b1  9s ease-in-out infinite;
       z-index: 0;
+     
     }
     @keyframes b1{
       0%{
@@ -101,6 +102,8 @@ button:active {
     margin: 1em;
     perspective: 1500px;
     cursor: url(http://cur.cursors-4u.net/games/gam-4/gam308.cur), auto !important;
+    animation: tble 5s ease-out 1;
+
   }
   .card .content {
     position: relative;
@@ -364,6 +367,60 @@ button:active {
     transform: scale(0.83);
   }
 
+
+  .buttonz:active+table{
+    animation: tble 4s ease-out 1;
+
+  }
+
+  @keyframes tble{
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+  @keyframes tble2{
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+  @keyframes tble3{
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+  @keyframes tble4{
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+  @keyframes tble5{
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+  @keyframes tble6{
+    from{
+      transform: scale(0);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
 
   @media only screen and (max-width: 500px) {
     .button.a{

@@ -5,6 +5,8 @@
     text-align: center;
     width: 100vw;
     height: 100vh;
+    animation: tble 4.5s ease-out 1;
+
 }
 
 .cntr0 {
