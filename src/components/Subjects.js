@@ -177,7 +177,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
         return (
             <div class="sbj"  id="SUBJECTS" data-text="Subjects">
                <img src={bg1} id="bgg1" alt=""></img>
-                 <div  style={{color:'white',zIndex:4,top:'9vh'}}> <br/> <br/> <br/> <h1><big><big style={{textShadow:'1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue'}}>Subjects</big></big></h1>
+                 <div  style={{color:'white',zIndex:4,top:'9vh'}}> <br/> <br/> <br/> <h1><big><big style={{textShadow:'1px 1px 2px black, 0 0 1em lightgreen, 0 0 0.2em green'}}>SUBJECTS</big></big></h1>
                  <br/>
                <div class="wrapper" id="wrapper">
                    
@@ -531,7 +531,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
          
     <div id="PARTICIPANTS" class="participants">
         <br/> <br/> <br/>
-        <h1 style={{color:'white'}}><big>PARTICIPANTS</big></h1>
+        <h1 style={{color:'white'}}><big style={{textShadow:'1px 1px 2px black, 2px 0 1em lightgreen, 0 0 0.2em green'}}>PARTICIPANTS</big></h1>
         <span> <big> Present Course: {sub} </big></span>
         <div style={{msOverflowX:'auto'}} class="tbl">
         <span class="flex-container">
