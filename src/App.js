@@ -23,8 +23,11 @@ function App() {
      <div  style={{zIndex:"-8"}}><audio autoPlay loop >
                      <source src={bgad} type="audio/mp3" autoPlay />
                </audio>
-      </div></div>
+      </div>
+     
+      </div>
       
+     
       
       
   );
