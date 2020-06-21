@@ -46,23 +46,7 @@ const screenfull = require('screenfull');
 
                      <img src={book} alt="" class="book"  />
                      <img src={bg0} alt="" class="bg0"  />
-                     <video 
-                      autoPlay
-                       loop
-                        muted
-                        style={{
-                            position:"absolute",
-                            width:"100%",
-                            left:"50%",
-                            top: "50%",
-                            height:"100%",
-                            objectFit:"cover",
-                            transform:"translate(-50%,-50%)",
-                            zIndex:"-0",
-                            opacity:"0"
-                        }}  >
-                         <source src={bgvd} type="video/mp4" class="bgvd" />
-                     </video>
+                     
                      <img src={bg1} id="bg1" alt=""></img>
                      <a  id="gotopbtn" href="#" style={{fontSize:35 }}><i  class='far'>&#xf35b;</i></a>
                     <h4 class="gtbh">SCROLL TO TOP</h4>
